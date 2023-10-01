@@ -1,18 +1,24 @@
-## Getting Started
+## Projeto do desafio de diagramação de classes DIO Santander Bootcamp
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+OBS: O projeto tem o objetivo apenas de exercitar conceitos de POO. Os métodos existentes apenas imprimem uma mensagem indicando que os conceitos foram executados corretamente.
 
-The workspace contains two folders by default, where:
+Foi elaborada uma solução que representasse os papeis do Iphone de: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Classes criadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> AparelhoTelefonico:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Nessa classe foram criados os seguintes métodos (public): ligar() , atender() , iniciarCorreioVoz()
 
-## Dependency Management
+Foi executado ainda, o encapsulamento de outros dois métodos (private) : validarSinalOperadora() , consultarSaldo()
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> NavegadorNaInternet:
+
+Nessa classe foram criados os seguintes métodos (public): exibirPagina() , adicionarNovaAba() , atualizarPagina()
+
+Foi executado ainda, o encapsulamento de outro método (private) : validarConexaoInternet()
+
+> ReprodutorMusical:
+
+Nessa classe foram criados os seguintes métodos (public): tocarMusica() , pausarMusica() , selecionarMusica()
